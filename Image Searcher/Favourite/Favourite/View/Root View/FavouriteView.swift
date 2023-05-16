@@ -10,6 +10,10 @@ import UIKit
 final class FavouriteView: CustomView {
     
     //MARK: - Outlets
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionView: UICollectionView! {
+        didSet {
+            collectionView.register(UINib(nibName: FavouriteCollectionViewCell.defaultReuseIdentifier, bundle: nil), forCellWithReuseIdentifier: FavouriteCollectionViewCell.defaultReuseIdentifier)
+        }
+    }
     
 }

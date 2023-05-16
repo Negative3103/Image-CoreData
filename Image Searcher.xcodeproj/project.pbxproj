@@ -34,6 +34,15 @@
 		D1606B572A1388BA00AD1414 /* FavouriteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1606B562A1388BA00AD1414 /* FavouriteView.xib */; };
 		D1606B592A13895000AD1414 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B582A13895000AD1414 /* TabbarController.swift */; };
 		D1606B5B2A13899100AD1414 /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B5A2A13899100AD1414 /* UITabBar.swift */; };
+		D1606B5D2A138E2D00AD1414 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B5C2A138E2D00AD1414 /* Button.swift */; };
+		D1606B612A1390A200AD1414 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D1606B602A1390A200AD1414 /* IQKeyboardManagerSwift */; };
+		D1606B632A1391D600AD1414 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B622A1391D600AD1414 /* String.swift */; };
+		D1606B682A1395D700AD1414 /* Images+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B662A1395D700AD1414 /* Images+CoreDataClass.swift */; };
+		D1606B692A1395D700AD1414 /* Images+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B672A1395D700AD1414 /* Images+CoreDataProperties.swift */; };
+		D1606B6B2A13964800AD1414 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B6A2A13964800AD1414 /* DatabaseHandler.swift */; };
+		D1606B6E2A13A86000AD1414 /* FavouriteDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B6D2A13A86000AD1414 /* FavouriteDataProvider.swift */; };
+		D1606B702A13A98E00AD1414 /* FavouriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B6F2A13A98E00AD1414 /* FavouriteCollectionViewCell.swift */; };
+		D1606B722A13A99100AD1414 /* FavouriteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1606B712A13A99100AD1414 /* FavouriteCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +75,14 @@
 		D1606B562A1388BA00AD1414 /* FavouriteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteView.xib; sourceTree = "<group>"; };
 		D1606B582A13895000AD1414 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		D1606B5A2A13899100AD1414 /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		D1606B5C2A138E2D00AD1414 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		D1606B622A1391D600AD1414 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		D1606B662A1395D700AD1414 /* Images+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D1606B672A1395D700AD1414 /* Images+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D1606B6A2A13964800AD1414 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		D1606B6D2A13A86000AD1414 /* FavouriteDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteDataProvider.swift; sourceTree = "<group>"; };
+		D1606B6F2A13A98E00AD1414 /* FavouriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1606B712A13A99100AD1414 /* FavouriteCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1606B612A1390A200AD1414 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +168,7 @@
 		D1606B222A137D9A00AD1414 /* Favourite */ = {
 			isa = PBXGroup;
 			children = (
+				D1606B6C2A13A85200AD1414 /* Data Provider */,
 				D1606B4F2A13887600AD1414 /* View Controller */,
 				D1606B4E2A13887200AD1414 /* View */,
 			);
@@ -195,6 +214,8 @@
 				D1606B362A137FAE00AD1414 /* UIView.swift */,
 				D1606B4A2A13853700AD1414 /* UITabBarItem.swift */,
 				D1606B5A2A13899100AD1414 /* UITabBar.swift */,
+				D1606B5C2A138E2D00AD1414 /* Button.swift */,
+				D1606B622A1391D600AD1414 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -202,8 +223,11 @@
 		D1606B332A137F9500AD1414 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D1606B662A1395D700AD1414 /* Images+CoreDataClass.swift */,
+				D1606B672A1395D700AD1414 /* Images+CoreDataProperties.swift */,
 				D1606B342A137F9A00AD1414 /* ReusableView.swift */,
 				D1606B462A13839A00AD1414 /* CustomView.swift */,
+				D1606B6A2A13964800AD1414 /* DatabaseHandler.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -261,6 +285,8 @@
 		D1606B522A1388A200AD1414 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				D1606B6F2A13A98E00AD1414 /* FavouriteCollectionViewCell.swift */,
+				D1606B712A13A99100AD1414 /* FavouriteCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -272,6 +298,14 @@
 				D1606B562A1388BA00AD1414 /* FavouriteView.xib */,
 			);
 			path = "Root View";
+			sourceTree = "<group>";
+		};
+		D1606B6C2A13A85200AD1414 /* Data Provider */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B6D2A13A86000AD1414 /* FavouriteDataProvider.swift */,
+			);
+			path = "Data Provider";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +324,9 @@
 			dependencies = (
 			);
 			name = "Image Searcher";
+			packageProductDependencies = (
+				D1606B602A1390A200AD1414 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Image Searcher";
 			productReference = D1606B042A137C7C00AD1414 /* Image Searcher.app */;
 			productType = "com.apple.product-type.application";
@@ -318,6 +355,9 @@
 				Base,
 			);
 			mainGroup = D1606AFB2A137C7C00AD1414;
+			packageReferences = (
+				D1606B5F2A1390A200AD1414 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = D1606B052A137C7C00AD1414 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -334,6 +374,7 @@
 			files = (
 				D1606B452A13837100AD1414 /* SearchView.xib in Resources */,
 				D1606B172A137C7E00AD1414 /* LaunchScreen.storyboard in Resources */,
+				D1606B722A13A99100AD1414 /* FavouriteCollectionViewCell.xib in Resources */,
 				D1606B572A1388BA00AD1414 /* FavouriteView.xib in Resources */,
 				D1606B142A137C7E00AD1414 /* Assets.xcassets in Resources */,
 			);
@@ -355,13 +396,20 @@
 				D1606B5B2A13899100AD1414 /* UITabBar.swift in Sources */,
 				D1606B352A137F9A00AD1414 /* ReusableView.swift in Sources */,
 				D1606B592A13895000AD1414 /* TabbarController.swift in Sources */,
+				D1606B6E2A13A86000AD1414 /* FavouriteDataProvider.swift in Sources */,
 				D1606B2A2A137E5700AD1414 /* UINavigationBar.swift in Sources */,
 				D1606B512A13888400AD1414 /* FavouriteViewController.swift in Sources */,
+				D1606B5D2A138E2D00AD1414 /* Button.swift in Sources */,
 				D1606B302A137F5500AD1414 /* AssetsColor.swift in Sources */,
 				D1606B4B2A13853700AD1414 /* UITabBarItem.swift in Sources */,
+				D1606B692A1395D700AD1414 /* Images+CoreDataProperties.swift in Sources */,
+				D1606B6B2A13964800AD1414 /* DatabaseHandler.swift in Sources */,
 				D1606B472A13839A00AD1414 /* CustomView.swift in Sources */,
 				D1606B3A2A13822B00AD1414 /* SearchViewController.swift in Sources */,
 				D1606B122A137C7C00AD1414 /* Image_Searcher.xcdatamodeld in Sources */,
+				D1606B682A1395D700AD1414 /* Images+CoreDataClass.swift in Sources */,
+				D1606B632A1391D600AD1414 /* String.swift in Sources */,
+				D1606B702A13A98E00AD1414 /* FavouriteCollectionViewCell.swift in Sources */,
 				D1606B4D2A13885800AD1414 /* FavouriteCoordinator.swift in Sources */,
 				D1606B0A2A137C7C00AD1414 /* SceneDelegate.swift in Sources */,
 				D1606B432A13836D00AD1414 /* SearchView.swift in Sources */,
@@ -436,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -490,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -514,7 +562,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,7 +590,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -578,6 +626,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1606B5F2A1390A200AD1414 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 7.0.0;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1606B602A1390A200AD1414 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1606B5F2A1390A200AD1414 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D1606B102A137C7C00AD1414 /* Image_Searcher.xcdatamodeld */ = {

@@ -12,4 +12,6 @@ enum AssetsImage: String {
     case searchDefault
     case staractive
     case starDefault
+    case favoriteCircle
+    case activeFavoriteCircle
 }
