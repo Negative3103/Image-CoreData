@@ -14,6 +14,22 @@
 		D1606B122A137C7C00AD1414 /* Image_Searcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1606B102A137C7C00AD1414 /* Image_Searcher.xcdatamodeld */; };
 		D1606B142A137C7E00AD1414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1606B132A137C7E00AD1414 /* Assets.xcassets */; };
 		D1606B172A137C7E00AD1414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1606B152A137C7E00AD1414 /* LaunchScreen.storyboard */; };
+		D1606B272A137E1800AD1414 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B262A137E1700AD1414 /* Coordinator.swift */; };
+		D1606B2A2A137E5700AD1414 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B292A137E5700AD1414 /* UINavigationBar.swift */; };
+		D1606B2C2A137F2200AD1414 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B2B2A137F2200AD1414 /* UIImage.swift */; };
+		D1606B2E2A137F3E00AD1414 /* AssetsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B2D2A137F3E00AD1414 /* AssetsImage.swift */; };
+		D1606B302A137F5500AD1414 /* AssetsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B2F2A137F5500AD1414 /* AssetsColor.swift */; };
+		D1606B322A137F7B00AD1414 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B312A137F7B00AD1414 /* UIColor.swift */; };
+		D1606B352A137F9A00AD1414 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B342A137F9A00AD1414 /* ReusableView.swift */; };
+		D1606B372A137FAE00AD1414 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B362A137FAE00AD1414 /* UIView.swift */; };
+		D1606B3A2A13822B00AD1414 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B392A13822B00AD1414 /* SearchViewController.swift */; };
+		D1606B3C2A13831300AD1414 /* ViewSpecificController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B3B2A13831300AD1414 /* ViewSpecificController.swift */; };
+		D1606B3E2A13832200AD1414 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B3D2A13832200AD1414 /* AlertViewController.swift */; };
+		D1606B432A13836D00AD1414 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B422A13836D00AD1414 /* SearchView.swift */; };
+		D1606B452A13837100AD1414 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1606B442A13837100AD1414 /* SearchView.xib */; };
+		D1606B472A13839A00AD1414 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B462A13839A00AD1414 /* CustomView.swift */; };
+		D1606B492A1384FD00AD1414 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B482A1384FD00AD1414 /* SearchCoordinator.swift */; };
+		D1606B4B2A13853700AD1414 /* UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1606B4A2A13853700AD1414 /* UITabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,22 @@
 		D1606B132A137C7E00AD1414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1606B162A137C7E00AD1414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1606B182A137C7E00AD1414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1606B262A137E1700AD1414 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D1606B292A137E5700AD1414 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		D1606B2B2A137F2200AD1414 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		D1606B2D2A137F3E00AD1414 /* AssetsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsImage.swift; sourceTree = "<group>"; };
+		D1606B2F2A137F5500AD1414 /* AssetsColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsColor.swift; sourceTree = "<group>"; };
+		D1606B312A137F7B00AD1414 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D1606B342A137F9A00AD1414 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		D1606B362A137FAE00AD1414 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		D1606B392A13822B00AD1414 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D1606B3B2A13831300AD1414 /* ViewSpecificController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpecificController.swift; sourceTree = "<group>"; };
+		D1606B3D2A13832200AD1414 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		D1606B422A13836D00AD1414 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D1606B442A13837100AD1414 /* SearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		D1606B462A13839A00AD1414 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D1606B482A1384FD00AD1414 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		D1606B4A2A13853700AD1414 /* UITabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,10 @@
 		D1606B062A137C7C00AD1414 /* Image Searcher */ = {
 			isa = PBXGroup;
 			children = (
+				D1606B232A137DA400AD1414 /* Additional Materials */,
+				D1606B202A137D7600AD1414 /* TabbarController */,
+				D1606B1E2A137D5800AD1414 /* Search */,
+				D1606B1F2A137D5F00AD1414 /* Favourite */,
 				D1606B072A137C7C00AD1414 /* AppDelegate.swift */,
 				D1606B092A137C7C00AD1414 /* SceneDelegate.swift */,
 				D1606B0B2A137C7C00AD1414 /* ViewController.swift */,
@@ -68,6 +104,130 @@
 				D1606B102A137C7C00AD1414 /* Image_Searcher.xcdatamodeld */,
 			);
 			path = "Image Searcher";
+			sourceTree = "<group>";
+		};
+		D1606B1E2A137D5800AD1414 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B482A1384FD00AD1414 /* SearchCoordinator.swift */,
+				D1606B212A137D9300AD1414 /* Search */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D1606B1F2A137D5F00AD1414 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B222A137D9A00AD1414 /* Favourite */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		D1606B202A137D7600AD1414 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		D1606B212A137D9300AD1414 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B382A13822000AD1414 /* View Controller */,
+				D1606B3F2A13835B00AD1414 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D1606B222A137D9A00AD1414 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		D1606B232A137DA400AD1414 /* Additional Materials */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B332A137F9500AD1414 /* Classes */,
+				D1606B282A137E4D00AD1414 /* Extensions */,
+				D1606B252A137E0B00AD1414 /* Protocols */,
+				D1606B242A137DB100AD1414 /* Constants */,
+			);
+			path = "Additional Materials";
+			sourceTree = "<group>";
+		};
+		D1606B242A137DB100AD1414 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B2D2A137F3E00AD1414 /* AssetsImage.swift */,
+				D1606B2F2A137F5500AD1414 /* AssetsColor.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D1606B252A137E0B00AD1414 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B262A137E1700AD1414 /* Coordinator.swift */,
+				D1606B3B2A13831300AD1414 /* ViewSpecificController.swift */,
+				D1606B3D2A13832200AD1414 /* AlertViewController.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D1606B282A137E4D00AD1414 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B292A137E5700AD1414 /* UINavigationBar.swift */,
+				D1606B2B2A137F2200AD1414 /* UIImage.swift */,
+				D1606B312A137F7B00AD1414 /* UIColor.swift */,
+				D1606B362A137FAE00AD1414 /* UIView.swift */,
+				D1606B4A2A13853700AD1414 /* UITabBarItem.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D1606B332A137F9500AD1414 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B342A137F9A00AD1414 /* ReusableView.swift */,
+				D1606B462A13839A00AD1414 /* CustomView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D1606B382A13822000AD1414 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B392A13822B00AD1414 /* SearchViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D1606B3F2A13835B00AD1414 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B412A13836500AD1414 /* Root View */,
+				D1606B402A13836100AD1414 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1606B402A13836100AD1414 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D1606B412A13836500AD1414 /* Root View */ = {
+			isa = PBXGroup;
+			children = (
+				D1606B422A13836D00AD1414 /* SearchView.swift */,
+				D1606B442A13837100AD1414 /* SearchView.xib */,
+			);
+			path = "Root View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1606B452A13837100AD1414 /* SearchView.xib in Resources */,
 				D1606B172A137C7E00AD1414 /* LaunchScreen.storyboard in Resources */,
 				D1606B142A137C7E00AD1414 /* Assets.xcassets in Resources */,
 				D1606B0F2A137C7C00AD1414 /* Main.storyboard in Resources */,
@@ -143,8 +304,23 @@
 			files = (
 				D1606B0C2A137C7C00AD1414 /* ViewController.swift in Sources */,
 				D1606B082A137C7C00AD1414 /* AppDelegate.swift in Sources */,
+				D1606B3C2A13831300AD1414 /* ViewSpecificController.swift in Sources */,
+				D1606B2E2A137F3E00AD1414 /* AssetsImage.swift in Sources */,
+				D1606B492A1384FD00AD1414 /* SearchCoordinator.swift in Sources */,
+				D1606B272A137E1800AD1414 /* Coordinator.swift in Sources */,
+				D1606B372A137FAE00AD1414 /* UIView.swift in Sources */,
+				D1606B352A137F9A00AD1414 /* ReusableView.swift in Sources */,
+				D1606B2A2A137E5700AD1414 /* UINavigationBar.swift in Sources */,
+				D1606B302A137F5500AD1414 /* AssetsColor.swift in Sources */,
+				D1606B4B2A13853700AD1414 /* UITabBarItem.swift in Sources */,
+				D1606B472A13839A00AD1414 /* CustomView.swift in Sources */,
+				D1606B3A2A13822B00AD1414 /* SearchViewController.swift in Sources */,
 				D1606B122A137C7C00AD1414 /* Image_Searcher.xcdatamodeld in Sources */,
 				D1606B0A2A137C7C00AD1414 /* SceneDelegate.swift in Sources */,
+				D1606B432A13836D00AD1414 /* SearchView.swift in Sources */,
+				D1606B2C2A137F2200AD1414 /* UIImage.swift in Sources */,
+				D1606B3E2A13832200AD1414 /* AlertViewController.swift in Sources */,
+				D1606B322A137F7B00AD1414 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
