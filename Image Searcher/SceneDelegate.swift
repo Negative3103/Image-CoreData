@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.backgroundColor = UIColor.appColor(.mainBackground)
-        window?.rootViewController = UINavigationController(rootViewController: LaunchScreenViewController())
+        window?.rootViewController = UINavigationController(rootViewController: TabBarController())
         window?.makeKeyAndVisible()
     }
 

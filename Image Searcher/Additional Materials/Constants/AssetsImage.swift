@@ -8,6 +8,8 @@
 import UIKit
 
 enum AssetsImage: String {
-    case search
-    case favourite
+    case searchActive
+    case searchDefault
+    case staractive
+    case starDefault
 }
