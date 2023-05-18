@@ -17,5 +17,6 @@ extension Images {
     }
 
     @NSManaged public var images: Data?
-
+    @NSManaged public var title: String?
+    
 }

@@ -11,12 +11,14 @@ import UIKit
 class DatabaseHandler {
     
     var image: UIImage? = nil
+    var title: String? = nil
     
     func saveImage() {
         let appDelegate = (UIApplication.shared.delegate) as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
         let imageObject = NSEntityDescription.insertNewObject(forEntityName: "Images", into: context) as! Images
         imageObject.images = image?.jpegData(compressionQuality: 1) as Data?
+        imageObject.title = title
         
         do {
             try context.save()

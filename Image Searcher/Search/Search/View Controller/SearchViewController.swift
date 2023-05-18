@@ -17,6 +17,7 @@ final class SearchViewController: UIViewController, ViewSpecificController, Aler
     
     //MARK: - Attributes
     var database = DatabaseHandler()
+    var images = [Images]()
     
     //MARK: - Actions
     @IBAction func searchButtonAction(_ sender: UIButton) {
@@ -30,9 +31,13 @@ final class SearchViewController: UIViewController, ViewSpecificController, Aler
     }
     
     @IBAction func addToFavouriteAction(_ sender: UIButton) {
-        database.image = view().imgView.image
-        database.saveImage()
-        view().button.setImage(.appImage(.activeFavoriteCircle), for: .normal)
+        if images.count > 4 {
+            showAlertWithTwoButtons(title: "Storage is Full!", message: "Do you want delete last image and save new?", firstButtonText: "Yes", firstButtonAction: {
+                self.removeAndSaveImage()
+            }, secondButtonText: "No")
+        } else {
+            saveImage()
+        }
     }
     
     //MARK: - Lifecycles
@@ -40,12 +45,18 @@ final class SearchViewController: UIViewController, ViewSpecificController, Aler
         super.viewDidLoad()
         appearanceSettings()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.images = database.retrieveData()
+    }
 }
 
 //MARK: - Other funcs
 extension SearchViewController {
     private func appearanceSettings() {
         title = "Search"
+        self.images = database.retrieveData()
     }
     
     private func searchImage(name: String) {
@@ -59,5 +70,17 @@ extension SearchViewController {
             }
         }
         task.resume()
+    }
+    
+    private func removeAndSaveImage() {
+        database.deleteImage(image: images.removeFirst())
+        saveImage()
+    }
+    
+    private func saveImage() {
+        database.image = view().imgView.image
+        database.title = view().imgNameTF.text
+        database.saveImage()
+        view().button.setImage(.appImage(.activeFavoriteCircle), for: .normal)
     }
 }

@@ -21,12 +21,19 @@ final class FavouriteCollectionViewCell: UICollectionViewCell {
             if let data = item.images {
                 imgView.image = UIImage(data: data)
             }
+            
+            if let title = item.title {
+                titleLabel.text = title
+            } else {
+                titleLabel.text = "" 
+            }
         }
     }
     
     //MARK: - Lifecycles
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.layer.cornerRadius = 10
+        self.contentView.layer.cornerRadius = 10
+        self.imgView.layer.cornerRadius = 10
     }
 }

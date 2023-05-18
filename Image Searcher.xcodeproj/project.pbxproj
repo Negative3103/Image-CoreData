@@ -244,16 +244,8 @@
 			isa = PBXGroup;
 			children = (
 				D1606B412A13836500AD1414 /* Root View */,
-				D1606B402A13836100AD1414 /* Cell */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		D1606B402A13836100AD1414 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		D1606B412A13836500AD1414 /* Root View */ = {

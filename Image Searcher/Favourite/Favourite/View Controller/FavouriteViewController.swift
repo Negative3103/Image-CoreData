@@ -37,6 +37,7 @@ final class FavouriteViewController: UIViewController, ViewSpecificController, A
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        images?.removeAll()
         images = database.retrieveData()
     }
 }
@@ -53,8 +54,6 @@ extension FavouriteViewController {
             self.database.deleteImage(image: image)
             self.images?.removeAll()
             self.images = self.database.retrieveData()
-        } , secondButtonText: "No") {
-            self.dismiss(animated: true)
-        }
+        } , secondButtonText: "No")
     }
 }
