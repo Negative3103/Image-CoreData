@@ -40,6 +40,17 @@
                ReferencedContainer = "container:Image Searcher.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D1B05CAD2A16577500A40FC9"
+               BuildableName = "Image SearcherUITests.xctest"
+               BlueprintName = "Image SearcherUITests"
+               ReferencedContainer = "container:Image Searcher.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
